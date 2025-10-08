@@ -13,6 +13,7 @@ To enable the policy, all you have to do is `git clone` and (be sure you have so
 
 ```
 sudo dnf install selinux-policy-devel make
+make
 sudo semodule -i confine-browsers.pp
 restorecon -rv /
 ```
